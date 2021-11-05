@@ -48,15 +48,12 @@ function App() {
   const [previewFullscreen, setPreviewFullscreen] = React.useState(false);
 
   function handleChange(e) {
-    let newText = e.target.value;
-    console.log(typeof newText);
-    console.log(newText);
-    setText(newText);
+    setText(e.target.value);
   }
 
   function createMarkup() {
     return {
-      __html: marked(text, { breaks: true }),
+      __html: marked.parse(text, { breaks: true }),
     };
   }
 

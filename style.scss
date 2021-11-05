@@ -18,7 +18,7 @@ body {
 }
 
 .editor-container {
-  height: 200px;
+  height: 12.5rem;
   width: 100%;
   margin-bottom: 0.5rem;
   position: relative;
@@ -26,7 +26,7 @@ body {
   i {
     background-color: white;
     padding: 0.3rem;
-    border-radius: 5px;
+    border-radius: 0.25rem;
   }
 }
 
@@ -47,7 +47,7 @@ body {
     background-color: hsl(0, 0%, 40%);
     color: white;
     padding: 0.3rem;
-    border-radius: 5px;
+    border-radius: 0.25rem;
   }
 }
 
